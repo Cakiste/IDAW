@@ -1,0 +1,19 @@
+.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#selected{
+    color: rgb(11, 61, 146);
+}
+.body{
+    background-color: mediumpurple;
+}
+.text{
+    color:navy;
+}
+.pdf{
+    width: 85%;
+    height: 850px;
+}
