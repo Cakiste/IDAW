@@ -5,7 +5,8 @@
 }
 
 #selected{
-    color: rgb(11, 61, 146);
+    color: rgb(114, 0, 0);
+    font-style: italic;
 }
 .body{
     background-color: mediumpurple;
@@ -17,3 +18,11 @@
     width: 85%;
     height: 850px;
 }
+
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:rgb(0, 0, 0);
+    margin-bottom:0;
+  }
