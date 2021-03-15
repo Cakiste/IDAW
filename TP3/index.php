@@ -9,11 +9,11 @@
 if(isset($_POST['css'])){
     setcookie("style",$_POST['css']);
 }
-//en utilisation réel il faudrait avoir le code à la suite dans le header.php par exemple, et faire le <link> avec href=$_css.css (ici pas de style ni de page à afficher)
+//en utilisation réel il faudrait avoir le code à la suite dans le header.php par exemple, et faire le <link> avec href=$css.css (ici pas de style ni de page à afficher)
 if (isset($_COOKIE['style'])){
-    $_css = $_COOKIE['style'];
+    $css = $_COOKIE['style'];
 }
 else
-    $_css = "style1";
-print($_css)
+    $css = "style1";
+print($css)
 ?>
