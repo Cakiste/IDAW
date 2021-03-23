@@ -172,6 +172,7 @@
 				</div><!-- .header-navigation-wrapper -->
 
 			</div><!-- .header-inner -->
+				<?php carousel_show(); ?> 
 
 			<?php
 			// Output the search modal (if it is activated in the customizer).
